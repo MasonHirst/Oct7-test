@@ -1,0 +1,5 @@
+After looking up how many technology stack Facebook uses, I was surprised that they use 17 different technologies to run Facebook! I also learned that in July of 2022, Facebook had nearly 3 billion active users, so it makes sense that they would need so much technology. According to Facebook, they use some tools to simplify others. For example, they used a tool to reduce the lines of css code by 80%, while still having the same result.
+
+I looked up how many lines of code make up the google codebase, and found the number to be around 2 billion lines. It is shocking how much code really goes into these big tech companies, and makes you appreciate the amount they spend on developers. According to the internet, google's tech stack is made up of 17 different technologies, which include java, python, and angularJS.
+
+After researching a little about apple products, I found that their main tech stack is only 4 techs: swift, Objective-C, Cocoa touch(iOS), and cocoa (OS X). I also found that many apple iPhone apps run on less than 50,000 lines of code, which makes it seems a little more feasible to build an app than I previously thought.
