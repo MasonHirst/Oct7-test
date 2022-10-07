@@ -35,8 +35,9 @@ const cart = [
 
 //CODE HERE
 
-// const summedPrice = cart.reduce(/* CALLBACK HERE */)
+const summedPrice = cart.reduce((acc, cur) => acc + cur.price, 0)
 
+// console.log(summedPrice)
 
 //////////////////PROBLEM 2////////////////////
 /*  
@@ -54,7 +55,11 @@ const cart = [
 */
 
 //CODE HERE
+let calcFinalPrice = (cartTotal, couponValue, tax) => {
+    return cartTotal = (cartTotal * (1 + tax)) - couponValue
+}
 
+// console.log(calcFinalPrice(10, 1, .06))
 
 
 //////////////////PROBLEM 3////////////////////
@@ -79,7 +84,11 @@ const cart = [
 
 /*
     TEXT ANSWER HERE
-
+I would want: 
+ages: because age can play a role in prices
+partySize: to know what size table to seat them at
+budget: so we can help the customer find something in their budget
+drinkChoice: to know what drink to bring them
 */
 
 /*
@@ -88,3 +97,9 @@ const cart = [
 */
 
 //CODE HERE
+let customer = {
+    ages: [12, 67, 43, 44],
+    partySize: 4,
+    budget: 100,
+    drinkChoice: 'water'
+}
