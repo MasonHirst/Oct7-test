@@ -39,7 +39,7 @@ class Ticket {
         }
         updateStatus(txt) {
             this.status = `The order for customer ${this.customerId} is now ${txt}`
-}
+    }
 }
 
 
@@ -57,7 +57,7 @@ class Ticket {
 //CODE HERE
 let firstTicket = new Ticket(['pizza', 'bread', 'soda'], '7:03 pm', 575)
 
-console.log(firstTicket)
+// console.log(firstTicket)
 
 /*
     Call the `updateStatus` method on
@@ -67,3 +67,4 @@ console.log(firstTicket)
 
 //CODE HERE
 firstTicket.updateStatus('cooking')
+console.log(firstTicket)
