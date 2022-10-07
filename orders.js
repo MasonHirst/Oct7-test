@@ -38,7 +38,7 @@ class Ticket {
         this.status = 'queued'
         }
         updateStatus(txt) {
-            this.status = `The order for customer ${customerId} is now ${txt}`
+            this.status = `The order for customer ${this.customerId} is now ${txt}`
 }
 }
 
