@@ -31,7 +31,14 @@
 */
 
 //CODE HERE
-
+let pizza = {
+    name: 'chicken pizza',
+    price: 12,
+    category: 'dinner',
+    popularity: 5,
+    rating: 4.5,
+    tags: ['affordable', 'fan-favorite', 'kids']
+}
 
 
 //////////////////PROBLEM 2////////////////////
@@ -43,6 +50,7 @@
 */
 
 //CODE HERE
+// console.log(`${pizza.popularity} stars`)
 
 
 /*
@@ -53,6 +61,7 @@
 */
 
 //CODE HERE
+// console.log(pizza.tags[1])
 
 
 /*
@@ -63,6 +72,8 @@
 */
 
 //CODE HERE
+let {price} = pizza
+// console.log(price)
 
 
 /*
@@ -73,6 +84,8 @@
 */
 
 //CODE HERE
+let {category} = pizza
+// console.log(category)
 
 
 //////////////////PROBLEM 3////////////////////
@@ -88,7 +101,48 @@
 */
 
 //CODE HERE
-
+let foodArr = [
+    {
+        name: 'lasagna',
+        price: 22,
+        category: 'dinner',
+        popularity: 4,
+        rating: 5,
+        tags: ['fancy', 'fan-favorite', 'adults']
+    },
+    {
+        name: 'spicy salad',
+        price: 9,
+        category: 'lunch',
+        popularity: 3,
+        rating: 2,
+        tags: ['cheap', 'spicy', 'adults']
+    },
+    {
+        name: 'sandwich',
+        price: 13,
+        category: 'lunch',
+        popularity: 1,
+        rating: 1,
+        tags: ['vegetarian', 'least-liked', 'all-ages']
+    },
+    {
+        name: 'chicken nuggies',
+        price: 8,
+        category: 'dinner',
+        popularity: 5,
+        rating: 5,
+        tags: ['cheap', 'saucy', 'kids']
+    },
+    {
+        name: 'milkshake',
+        price: 7,
+        category: 'dessert',
+        popularity: 3,
+        rating: 5,
+        tags: ['sweet', 'treat-yo-self', 'all-ages']
+    }
+]
 
 
 //////////////////PROBLEM 4////////////////////
@@ -105,8 +159,10 @@
 
 //CODE HERE
 
-// const filteredFood = foodArr.filter(/* CALLBACK HERE */)
 
+const filteredFood = foodArr.filter((arr) => arr.tags.includes('adults'))
+
+// console.log(filteredFood)
 
 
 //////////////////PROBLEM 5////////////////////
@@ -149,6 +205,9 @@
 */
 
 //CODE HERE
+function filterByProperty(property, number, type) {
+    let FilteredArray = null
+}
 
 
 /*
