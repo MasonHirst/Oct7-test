@@ -22,7 +22,7 @@
 //CODE HERE
 class Employee{
     constructor(name, shifts) {
-        this.name = name,
+        this.name = name
         this.shifts = shifts
     }
     getSchedule() {
@@ -68,11 +68,11 @@ let empOne = new Employee('Jess', 'weekday mornings and weekday afternoons')
 */
 
 //CODE HERE
-const empTwo = [...empOne]
+const empTwo = {...empOne}
 
 empTwo.name = 'Nick'
 
-// console.log(empTwo)
+console.log(empTwo)
 
 //////////////////PROBLEM 2////////////////////
 /*  
@@ -135,7 +135,7 @@ let manager = new Manager('Winston', 'weekday mornings and afternoons', ['Cece',
 */
 
 //CODE HERE
-// manager.getEmployees()
+manager.getEmployees()
 
 /*
     Call the `addEmployee` method on the 
@@ -144,7 +144,7 @@ let manager = new Manager('Winston', 'weekday mornings and afternoons', ['Cece',
 */
 
 //CODE HERE 
-// manager.addEmployees('josh')
+manager.addEmployees('josh')
 
 /*
     Call the `getEmployees` method on the
